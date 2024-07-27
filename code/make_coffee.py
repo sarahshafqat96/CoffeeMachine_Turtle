@@ -27,7 +27,7 @@ class MakeCoffee(Turtle):                                                   #Cre
         time.sleep(2)
 
     def gen_report(self):                                                   #Function to create report of the resources
-        self.goto(0, -50)                                                #Turtle will go to the center
+        self.goto(0, -50)                                                   #Turtle will go to the center
         self.screen.bgpic("report_bg.png")                                  #Screen's bg picture will be set to "report_bg"
         Water = ingredients.resources['water']                              #Variables containing current amounts of our resources will be created
         Milk = ingredients.resources['milk']
@@ -53,7 +53,7 @@ class MakeCoffee(Turtle):                                                   #Cre
 
     def make_coffee(self, user_drink):                                      #Function for creating user's coffee
         self.clear()                                                        #Clear everything on the screen
-        self.goto(0, -240)                                               #Turtle goes to these co-ordinates
+        self.goto(0, -240)                                                  #Turtle goes to these co-ordinates
         drink_resources = ingredients.MENU[user_drink]['ingredients']       #Find the ingredients of those drink from ingredients.py file
         for key in drink_resources:                                         #For every ingredient
             ingredients.resources[key] -= drink_resources[key]              #Subtract it from the available resources
