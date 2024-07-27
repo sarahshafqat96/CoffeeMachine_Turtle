@@ -8,7 +8,7 @@ class Money(Turtle):                                                            
         self.hideturtle()                                                               #Hide the turtle
         self.penup()                                                                    #Turtle should not leave any trace lines
         self.transaction = False                                                        #Initially the transaction variable will be False
-        self.goto(0, 160)                                                         #Turtle's position
+        self.goto(0, 160)                                                               #Turtle's position
         self.color("#6F4E37")                                                           #Turtle's color will be coffee brown
 
     def enter_money(self):                                                              #Function to get user's money
@@ -29,6 +29,6 @@ class Money(Turtle):                                                            
                 return change                                                           #And return change
 
     def print_change(self, payment_change):                                             #Function to print user's change on the screen
-        self.goto(0, 220)                                                         #Turtle will go to this position
+        self.goto(0, 220)                                                               #Turtle will go to this position
         self.write(f"HERE IS ${payment_change} DOLLARS IN CHANGE", False, align="center",
                     font=("Candara", 20, "normal"))                                     #Write the change on the screen
