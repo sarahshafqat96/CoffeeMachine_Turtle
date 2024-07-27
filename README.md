@@ -10,9 +10,10 @@ receive their coffee along with any change if applicable. The GUI enhances user 
 - Coffee preparation process simulation.
 - Change calculation and display.
 - Detailed prompts and messages for a seamless user experience.
+- Gives report of available resources anytime the user enters "reports" in the prompt.
 
 # Information and Installation
-The codes are written in 4 files stored in the "code" folder in this directory. All the images used for developing the GUI of the game are stored in the "images" folder. Make sure you 
+The codes are written in 3 files stored in the "code" folder in this directory. The "ingredients.py file" is important as it stores all the information regarding various types of coffee, their required resources and cost. All the images used for developing the GUI of the game are stored in the "images" folder. Make sure you 
 download all the files in a single directory in your computer and run the "main.py" file on your local machine.
 
 You will just need Python installed on your local machine for this project.
